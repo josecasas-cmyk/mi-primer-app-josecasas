@@ -1,17 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Hello world</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <style>
+        body {
+            /* Fondo gris muy suave para resaltar la tarjeta */
+            background-color: #f4f6f9; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            /* Borde superior con color Azul Insignia */
+            border-top: 8px solid #004080; 
+        }
+
+        h1 {
+            /* Color Azul Insignia para el texto principal */
+            color: #004080; 
+            margin: 0 0 15px 0;
+            font-size: 2em;
+        }
+
+        .insignia-badge {
+            display: inline-block;
+            /* Color de acento Dorado/Amarillo */
+            background-color: #ffc107; 
+            color: #333;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Hola Mundo Vanilla JavaScript App jlc</h1>
-  </main>
-</body>
 
+    <div class="card">
+        <h1>Hola Mundo Vanilla JavaScript App jlc</h1>
+        <div class="insignia-badge">Proyecto Guiado</div>
+    </div>
+
+</body>
 </html>
